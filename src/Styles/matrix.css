@@ -1,0 +1,75 @@
+#matrix {
+  margin-top: 2rem;
+  vertical-align: middle;
+  text-align: center;
+}
+.matrix-square {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 2px solid black;
+
+  width: 50px;
+  height: 50px;
+}
+.matrix-square__value {
+  position: absolute;
+
+  z-index: 2;
+}
+.matrix-square__k {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  right: 0;
+}
+.matrix-square--green {
+  background-color: green;
+}
+.matrix__btn {
+  margin: 1rem 0;
+}
+.matrix__btn--blue {
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 70, 1) 100%
+  );
+  color: rgb(215, 215, 215);
+}
+.matrix__btn--blue:hover,
+.matrix__btn--blue:focus {
+  border: 2px solid;
+  box-shadow: 0 0 5px rgb(110, 45, 98);
+  border-color: rgb(118, 39, 136);
+  outline: 0;
+}
+.square-wrapper__cIndex {
+  position: absolute;
+  top: -30%;
+  left: 50%;
+}
+.square-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.matrix__row {
+  display: flex;
+}
+.matrix__body {
+  position: relative;
+}
+.matrix__table {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.push {
+  height: 100px;
+}

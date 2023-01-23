@@ -1,0 +1,19 @@
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home__link {
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  padding: 0.5rem;
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    90deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 70, 1) 100%
+  );
+  margin: 1rem;
+}
